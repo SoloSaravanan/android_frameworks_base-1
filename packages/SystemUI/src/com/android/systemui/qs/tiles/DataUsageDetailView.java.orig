@@ -20,13 +20,16 @@ import android.annotation.ColorInt;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+<<<<<<< HEAD
 import android.text.BidiFormatter;
 import android.text.format.Formatter;
 import android.text.format.Formatter.BytesResult;
+=======
 import android.provider.Settings;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
+>>>>>>> a07b8151554... SystemUI: Add default data sub switcher in CellularTile
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -48,12 +51,15 @@ import java.util.List;
  */
 public class DataUsageDetailView extends LinearLayout {
 
+<<<<<<< HEAD
+=======
     private static final double KB = 1024;
     private static final double MB = 1024 * KB;
     private static final double GB = 1024 * MB;
 
     private static final String SETTING_USER_PREF_DATA_SUB = "user_preferred_data_sub";
 
+>>>>>>> a07b8151554... SystemUI: Add default data sub switcher in CellularTile
     private final DecimalFormat FORMAT = new DecimalFormat("#.##");
 
     public DataUsageDetailView(Context context, AttributeSet attrs) {

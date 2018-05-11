@@ -228,6 +228,9 @@
     <!-- Content description of the Gaming mode tile in quick settings when enabled (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_quick_settings_gaming_mode_enabled">Gaming mode turned on.</string>
 
+    <!-- Text for switch default data sub in expanded CellularTile -->
+    <string name="use_data">Use %s for data</string>
+
     <!-- Font Tile -->
     <string name="quick_settings_font_label">Fonts</string>
     <string name="quick_settings_font_detail_label">Select a font</string>

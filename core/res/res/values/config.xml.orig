@@ -2663,14 +2663,17 @@
         <item>power</item>
         <item>restart</item>
         <item>lockdown</item>
+<<<<<<< HEAD
         <item>logout</item>
         <item>bugreport</item>
         <item>screenshot</item>
         <item>emergency</item>
+=======
         <item>flashlight</item>
         <item>users</item>
         <item>onthego</item>
         <item>silent</item>
+>>>>>>> 94f6c81ef71... Reduce default animation duration
     </string-array>
 
     <!-- Number of milliseconds to hold a wake lock to ensure that drawing is fully
